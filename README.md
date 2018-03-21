@@ -1,5 +1,5 @@
 This project is to review drug poisoning mortality in the state of Kentucky 
-by county, and to see if there is any obvious corelation between drug deaths 
+by county, and to see if there is any obvious correlation between drug deaths 
 and a county's dry/wet status. Or at least to see if the increase in the rate of
 drug deaths increased faster in dry counties than wet counties. 
 
@@ -37,7 +37,7 @@ if I came back to improve it.
 Since the comparison that I wanted to make relied on if a county was wet or dry, 
 one issue is that distinction is not included in the initially data set. Searching 
 online, I was unable to easily find a list of Kentucky counties and their wet/dry
-status for a particular year. Doing reasearch on it, over the last decade many 
+status for a particular year. Doing research on it, over the last decade many 
 counties have held votes on their alcohol status, so that does fuzzy up the end 
 result a bit. Since the API consisted of a range, I was hoping to find a list of 
 counties from somewhere in the middle. However, I ended up using a map published 

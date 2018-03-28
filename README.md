@@ -23,12 +23,12 @@ counties have held votes on their alcohol status, so that does fuzzy up the end
 result a bit. Since the API consisted of a range, I was hoping to find a list of 
 counties from somewhere in the middle. However, I ended up using a map published 
 in 2012.
-(https://catalog.data.gov/dataset/drug-poisoning-mortality-by-county-united-states)
+(http://www.kentucky.com/news/politics-government/article44371632.html)
 I was able to copy and paste a list of Kentucky counties and their FIPS (Federal
-Information Processing Standards) number, which was a column in my data set. I then
-just manually marked down if a county was wet/moist or Dry/Dry with special 
-circumstances. This would be used later for a sql statement using FIPS to group wet 
-counties for one chart and dry counties in another chart.
+Information Processing Standards) number, which was a column in my data set, into 
+an excel sheet. I then just manually marked down if a county was wet/moist or 
+Dry/Dry with special circumstances. This would be used later for a sql statement 
+using FIPS to group wet counties for one chart and dry counties in another chart.
 
 To run my project, with python it would require sqlite3, pandas, seaborn, and 
 matplotlib. These should all be listed in the requirement.txt file. 

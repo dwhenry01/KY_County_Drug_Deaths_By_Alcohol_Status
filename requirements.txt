@@ -22,6 +22,6 @@ seaborn==0.8.1
 six==1.11.0
 statsmodels==0.8.0
 tornado==5.0
-urllib3==1.22
+urllib3==1.24.2
 win-inet-pton==1.0.1
 wincertstore==0.2
